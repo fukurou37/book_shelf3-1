@@ -1,0 +1,19 @@
+current directory: /Users/shoku/ruby-camp/book_shelf3/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+/Users/shoku/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20190612-90122-xnftsx.rb extconf.rb
+creating Makefile
+
+current directory: /Users/shoku/ruby-camp/book_shelf3/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/shoku/ruby-camp/book_shelf3/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+clang  -D__SKIP_GNU -I/Users/shoku/.rbenv/versions/2.5.3/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/shoku/ruby-camp/book_shelf3/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20190612-90122-e7c5yz
